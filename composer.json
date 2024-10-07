@@ -1,0 +1,32 @@
+{
+    "name": "dcat-admin/xqw-log",
+    "alias": "",
+    "description": "记录操作日志",
+    "type": "library",
+    "keywords": ["dcat-admin", "extension"],
+    "homepage": "https://github.com/dcat-admin/xqw-log",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "junwind",
+            "email": "865460609@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "dcat/laravel-admin": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dcat\\Admin\\XqwLog\\": "src/"
+        }
+    },
+    "extra": {
+        "dcat-admin": "Dcat\\Admin\\XqwLog\\XqwLogServiceProvider",
+        "laravel": {
+            "providers": [
+                "Dcat\\Admin\\XqwLog\\XqwLogServiceProvider"
+            ]
+        }
+    }
+}

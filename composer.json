@@ -1,6 +1,6 @@
 {
-    "name": "dcat-admin/xqw-log",
-    "alias": "",
+    "name": "dcat-xqw-admin/xqw-log",
+    "alias": "dcat-xqw-admin",
     "description": "记录操作日志",
     "type": "library",
     "keywords": ["dcat-admin", "extension"],
